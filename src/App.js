@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import FunctionalComp from './components/FunctionalComp';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React app
-        </a>
-      </header>
+    <div class="parent">
+      <p>first edit :)</p>
+      <div> this is a div </div>
+      <FunctionalComp/>
     </div>
   );
 }
