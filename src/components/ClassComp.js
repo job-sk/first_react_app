@@ -1,7 +1,15 @@
 import React from 'react'
 
-class ClassComp extends React.Component{
+export class ClassComp extends React.Component{
     render(){
-        return <p>ClassComp</p>
-    }
+        return <p>Stateful component (class component)</p>
+    }    
 }
+
+export class ClassComp1 extends React.Component{
+    render(){
+        return <p>another class: multiple imports (class component)</p>
+    }    
+}
+
+// export default ClassComp;
